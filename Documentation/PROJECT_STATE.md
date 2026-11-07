@@ -11,15 +11,15 @@ _Last updated: 2026-11-07, in a cloud planning session._
 - Solo developer, about 10 hours per week, **no prior Unreal or game-dev experience**. Explain things simply and give exact click-by-click steps when editor work is needed.
 - Has Visual Studio installed. Is installing UE 5.8, Git, Git LFS, Blender and Claude Code using `SETUP_GUIDE.md`.
 - PC: RTX 3070, Ryzen 5 5500, 16 GB RAM, over 200 GB SSD.
-- Wants a **simple overview after every update**. Merges PRs themselves.
+- Wants a **simple overview after every update**. Claude pushes directly to `main` (D-018).
 
 ## Exact next steps (Milestone 0, on the owner's PC)
 1. Verify tools: `git --version`, `git lfs version`, the UE 5.8 install path, the Visual Studio version and workloads, Blender's path, `claude --version`. Record the versions below.
-2. Create a feature branch, for example `feature/m0-project-setup`.
+2. Work on `main` (D-018).
 3. Create the C++ project `CapitalWorld` at the repo root (`CapitalWorld.uproject`, `Source/CapitalWorld`, `Source/CapitalWorldSim`, `Config/`), following `ARCHITECTURE.md`. Use UnrealBuildTool from the command line where possible.
 4. Compile the Development Editor target. Fix errors until it is clean.
 5. Add one trivial automation test (`CapitalWorld.Sim.Smoke`) and run it headless (see `TESTING.md`). Record the real result.
-6. Commit, push, open a PR to `main` with a plain-English summary, and give the owner a simple overview.
+6. Commit, push to `main`, and give the owner a simple overview.
 7. Start Milestone 1.
 
 ## Recorded tool versions

@@ -32,7 +32,7 @@ Do not change a past decision silently: add a new entry that replaces it.
 - **Decision:** The coffee shop is the first business. It replaces the spec's convenience store and becomes the reference implementation for the business framework.
 - **By:** Owner.
 
-### D-007 — Git workflow: main plus feature branches, owner merges
+### D-007 — Git workflow: main plus feature branches, owner merges (REPLACED by D-018)
 - **Decision:** `main` is always stable. All work happens on feature branches and goes into `main` through pull requests. Claude writes a plain-English summary on each PR, and the **owner clicks Merge**. Claude never merges or pushes directly to `main`.
 - **By:** Owner.
 
@@ -83,3 +83,8 @@ Do not change a past decision silently: add a new entry that replaces it.
 ### D-017 — C++ naming prefix `CW`
 - **Decision:** Game classes and structs use the prefix `CW` after Unreal's type letter, for example `ACWPlayerCharacter`, `UCWLedgerSubsystem`, `FCWMoney`. This avoids name clashes with engine and plugin types.
 - **By:** Claude.
+
+### D-018 — Push directly to `main` after every update (replaces D-007)
+- **Decision:** Claude commits and pushes straight to `main` after every update. No feature branches or pull requests are required.
+- **Safeguard:** only push code that compiles and passes its tests. If something is broken, say so in the commit message and the overview.
+- **By:** Owner.

@@ -15,7 +15,7 @@ Capital World is a first-person 3D business and life simulator in Unreal Engine 
 - Keep working through milestones without asking permission for routine technical choices. Ask only about design choices marked OPEN, or anything that costs money.
 
 ## Hard rules
-- **Git:** never commit to `main`. Use a feature branch (`feature/<milestone>-<topic>`), push it, and open a PR with a plain-English summary. **The owner merges.**
+- **Git:** commit and **push directly to `main` after every update** (owner's choice, D-018). Only push code that compiles and passes its tests. If it doesn't yet, say so plainly in the commit message and the overview. Use clear commit messages. No pull requests are needed.
 - **Never claim a test passed or code compiled unless you actually ran it.** Record real results in `TESTING.md`.
 - **Budget is $0.** Use only free assets whose license allows commercial use. Record every third-party asset in `Content/ThirdParty/LICENSES.md` with its source, license and date. Never add anything that costs money. Warn the owner before Git LFS usage nears GitHub's free 10 GiB.
 - **Don't write the final story or lore** without the owner's ideas. Placeholders are fine.
