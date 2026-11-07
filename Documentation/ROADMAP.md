@@ -52,6 +52,7 @@ Tasks, in order:
 - Hunger and energy rules, passing out, hospital
 - Phone v1: clock, bank balance, ordering supplies, text chat with reply choices
 - Taxi v1: call, ride along or skip
+- **Starter job v1 at the supermarket** (NPC-owned): clock in, run the register, restock shelves, get paid per hour
 - Character creator v1: name, gender, presets
 - Save and load: slots, autosave, versioned data
 - Chapter 1 shell: goals list and debt warning at $0

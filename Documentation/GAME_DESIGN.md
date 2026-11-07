@@ -60,7 +60,7 @@ Status legend used in this file:
 | Story and lore | The owner has ideas and will share them later. **Do not write the final story without the owner.** | OPEN |
 
 ### Chapter 1 — DECIDED outline
-Arrive in Havenport → rent an apartment → buy a bed and a fridge → take a couple of taxi rides → earn money → open the **coffee shop**. The chapter ends with its first big event (details OPEN).
+Arrive in Havenport → rent an apartment → buy a bed and a fridge → take a couple of taxi rides → **work a starter job at the supermarket** to save money → open the **coffee shop**. The chapter ends with its first big event (details OPEN).
 
 ### Debt limits
 
@@ -88,12 +88,12 @@ Rules:
 
 DECIDED: the player has **hunger** and **energy**.
 
-Rules, as Claude understood the owner's answer:
+Rules (DECIDED, confirmed by the owner):
 - **Hunger at 0** slowly drains energy.
 - **Energy at 0 because of hunger:** the player passes out and wakes up at the **hospital**.
 - **Energy at 0 from being tired (not hunger):** the player passes out but does **not** go to the hospital. They wake up more slowly and with less energy than after normal sleep.
 
-**Confirm with the owner:** this interpretation of their answer. Where the tired player wakes up (on the spot, or at home) is still OPEN.
+**OPEN:** where a tired player wakes up (on the spot, or at home).
 
 Food sources (DECIDED): the **home fridge**, **stores**, and **restaurants or cafes**, including the player's own coffee shop.
 
@@ -134,25 +134,39 @@ DECIDED for the first version: **name, gender, and a few presets** (skin tone, h
 - **Making drinks:** the player walks to the coffee machine and presses E to make an order, until they hire baristas.
 - **Checkout:** the register **shows the order total** and the player **types that amount in** to confirm the sale. There is no item-by-item scanning.
 
+### Starter job: the supermarket — DECIDED
+Before owning a business, the player **works a starter job at a supermarket** (owned by an NPC) to save up for the coffee shop.
+
+PROPOSED details:
+- The player clocks in at the supermarket and works a shift of 4 or 8 in-game hours.
+- Work tasks reuse the business systems that the coffee shop will use later: **running the register** (the same "type in the shown total" checkout) and **restocking shelves** from the stockroom. Building the job first tests these systems before the player's own shop exists.
+- Pay is per hour worked, paid into the bank account at the end of each shift.
+- The player can quit at any time. Once the coffee shop opens, the job is optional.
+
 ### PROPOSED starting economy (Easy mode, Hard = ×1.25 costs)
 
 | Item | Price |
 |---|---|
-| Starting cash | **$8,000** |
+| Starting cash | **$2,000** |
+| Supermarket job wage | $25 / in-game hour |
 | Studio apartment rent | $350 / in-game week, plus a 1-week deposit |
 | Bed | $300 |
 | Fridge | $400 |
 | Groceries (one meal) | $8 |
 | Small retail unit rent (coffee shop) | $900 / in-game week, plus a 1-week deposit |
-| Espresso machine | $2,500 |
+| Used espresso machine (starter) | $1,200 |
 | Counter and register | $800 |
 | 2 tables and 4 chairs | $600 |
 | Opening supplies (beans, milk, cups, pastries) | $400 |
 | Barista wage | $18 / in-game hour |
 
-Why $8,000: the apartment, furniture, a few taxi rides and food cost about $1,550. The coffee-shop setup costs about $6,100. Starting with $8,000 leaves a small cushion, and Chapter 1's −$5,000 debt limit gives room for mistakes.
-
-**OPEN:** how the player earns money before the coffee shop opens. Options: (a) starting cash covers everything, so no job is needed; (b) a simple starter job.
+How the numbers work:
+- **Starting cash** covers the apartment, bed, fridge, a few taxi rides and food (about $1,550), with about $450 left over.
+- **The job:** an 8-hour shift pays $200. Daily living costs (rent share plus 3 meals) are about $74, so the player saves about $126 per in-game day.
+- **The coffee shop** costs about $4,800 to open.
+  - Saving the full amount takes about 38 in-game days (about 23 real hours).
+  - Chapter 1's −$5,000 debt limit lets a bold player open much earlier, in debt. That makes saving versus borrowing a real choice.
+- These numbers will be tuned in playtesting.
 
 PROPOSED menu (sell price / ingredient cost):
 

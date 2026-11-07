@@ -32,8 +32,8 @@ _Last updated: 2026-11-07, in a cloud planning session._
 
 ## Open design questions (ask the owner when relevant)
 - Story and lore: the owner will share their ideas later. Don't write final story content without them.
-- Confirm the hunger and energy interpretation in `GAME_DESIGN.md §6`, and where a tired player wakes up.
-- How the player earns money before the coffee shop opens: starting cash only, or a starter job.
+- Where a tired player wakes up after passing out (on the spot, or at home). The rest of the hunger and energy rules are confirmed.
+- Details of the supermarket starter job (shift length, tasks, wage). `GAME_DESIGN.md §11` has a proposal.
 - What exactly happens at each chapter's big event, and which chapter unlocks which business category.
 - Approve or change all **PROPOSED** numbers in `GAME_DESIGN.md`.
 
